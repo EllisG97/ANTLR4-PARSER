@@ -1,0 +1,101 @@
+
+schweben testGrade()
+
+[
+
+
+schweben testResult;
+schnur testGrade;
+
+anzeige(~What score did you attain ~);
+
+testScore = benutzereingabe
+		
+Bildschirm sauber!;
+
+ob (testResult >= 90)
+dann  testGrade = ~A~; 
+
+sonst wenn (testResult >= 80)
+dann testGrade = ~B~; 
+
+sonst wenn (testResult >= 70)
+dann testGrade = ~C~; 
+
+sonst 
+dann testGrade = ~F~;
+
+anzeige(~Your Grade = ~ + testGrade);
+
+0 ist zuruckgekommen;
+
+Auf Wiedersehen;
+
+]
+
+
+
+
+
+schweben sumOfArray()
+
+[ 
+
+{5} ist eine schweben ansammlung namen numArray;
+
+0 ist eine schweben namens sumOfNumbers;
+
+0 ist eine schweben namens numsEntered;
+
+anzeige(~Please enter 5 numbers: ~);
+
+wahren(numsEntered <= 5)
+
+[ 
+numArray {numsEntered} = benutzereingabe;
+sumOfNumbers += numArray{numsEntered};
+]
+
+anzeige(~The sum of the numbers entered = ~ + sumOfNumbers);
+
+0 ist zuruckgekommen;
+
+Auf Wiedersehen;
+]
+
+
+
+
+
+falsch ist ein boolean namens testWorks welches ist weltweit;
+
+schweben main()
+
+[
+
+test()
+
+ob (testWorks = wahr)
+dann anzeige(~The test was successful~); 
+sonst
+dann anzeige(~The test was not successful~); 
+
+
+0 ist zuruckgekommen;
+
+Auf Wiedersehen;
+
+
+]
+
+
+boolean test()
+[
+
+testWorks = wahr;
+
+testWorks ist zuruckgekommen;
+
+ ]
+
+

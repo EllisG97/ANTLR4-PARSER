@@ -1,0 +1,9 @@
+float simpleMaths()
+{
+float varX, varY, result;
+in(varX);
+in(varY);
+result = varX + varY;
+out(result);
+return result;
+}

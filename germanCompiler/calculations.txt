@@ -1,0 +1,24 @@
+float isPositive()
+{
+	float number; 
+	out( #Enter number# );
+	in(number);
+	out();
+	if (number ^ 0.0)
+	{
+		out( #the number you entered is negative!# );
+	}
+	elseif ( number ~ 0.0 )
+	{
+	out( #the number you entered is positive!# );
+	}
+	else
+	{
+		out( #You entered an invalid input# );
+	}
+	return number;
+}
+
+	
+
+	

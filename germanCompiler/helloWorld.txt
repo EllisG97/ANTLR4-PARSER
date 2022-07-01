@@ -1,0 +1,8 @@
+string hello()
+{
+string helloWorld;
+helloWorld = #helloWorld#;
+out(#helloWorld#);
+return helloWorld;
+}
+

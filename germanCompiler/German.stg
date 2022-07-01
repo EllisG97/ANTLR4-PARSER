@@ -1,0 +1,22 @@
+enterProgram(v) ::= "let <v> = function <v>() {"
+globals(values) ::= <<var <values> ;>>
+
+
+output(v) ::= <<console.log(<v; separator=" ">) ;>>
+input (v) ::= <<<v> = readline() ;>>
+ifClause(operand1, comparator, operand2) ::= <<if (  <operand1> <comparator> <operand2> ) { >>
+
+enterProcedure(v) ::= "function <v>() {"
+whileLoop(operand1, comparator, operand2) ::= <<while (<operand1> <comparator> <operand2>) {>>
+
+
+varDec(values) ::= <<var <values> ;>>
+singleAssignment(operand1, value) ::= <<<operand1> = <value> ;>>
+doubleAssignment(operand1, value1, operator, value2) ::= <<<operand1> = <value1> <operator> <value2>;>>
+
+elseClause() ::= " else { "
+
+return(v) ::= <<return <v>;>>
+
+arrayDec(operand) ::= <<var <operand> = [];>>
+arrayAssignment(operand1, index, value) ::= <<var <operand1>[<index>] = <value>;>>

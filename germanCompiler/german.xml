@@ -1,0 +1,14 @@
+<program>
+
+<funcDeclare>float simpleMaths ( ) 
+<statement><varDec>float varX , varY , result ; </varDec></statement>
+<statement><input>in( varX ) ; </input>
+</statement>
+<statement><input>in( varY ) ; </input>
+</statement>
+<statement></statement>
+<statement><output>out( result ) ; </output>
+</statement><ret>return <value>result  </value></ret>
+</funcDeclare>
+
+</program>
