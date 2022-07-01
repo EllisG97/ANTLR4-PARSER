@@ -1,0 +1,41 @@
+
+Example Program 1 - Hello World:
+
+The first example program is simply my version of the hello world program typically used 
+as a first attempt at programming. One difference however is that i assigned the string 
+"hello world" to a variable as opposed to just outputting the text. This is to show how
+variables are assigned using the syntax i created. The last two lines are used to return nothing,
+preventing any potential errors, with the final line 'auf wiedersehen' closing the console. 
+
+
+Example Program 2 - Sum of Numbers: 
+
+This is an example to show how a for loop would work using the language i created. It
+gets a user defined number and adds up all the numbers up to and including that number
+then outputs the total sum to the screen. Once the inputted number has been reached, the output
+is diplayed. The screen is then cleared and the console is closed.
+
+Example Program 3 -  Grading System:
+
+This is an example of how to use an if, nested else if and an else stament.
+The user enters the score they were awarded for a test, once a score has been inputted, the 
+value is then compared to a grading system to deduce what grade that score is equivalent
+to. This is done by checking if the score is greater than a set number, if not then it 
+descends to the next if statement. If the score does not fit into the given criteria the 
+work is marked as an F, hence the final else statement. The screen is cleared in between screen outputs.
+
+Example Program 4 - Sum of 5 Numbers Via An Array: 
+
+This program demonstrates the use of arrays using the programming language i have created. 
+It is exceptionally similar to the program used to show the use of for loops, however this adds
+5 numbers the user has specified, as opposed to adding every number up to a specified number. 
+The loop increments the counter used to select the position in the array. Therefore, preventing
+the sum including a non existent space in the array. 
+
+Example 5 - Boolean Check Using Global Variables:
+
+While this example is program is lacking efficiency, it shows how global variables and
+function calls are implemented using the language i created.  It simply sets a boolean value
+false. If the function is called successfully the boolean value will change to true
+and this will be displayed on the screen. However, if the function is not called
+correctly, the test was not successful will be displayed on the screen.
